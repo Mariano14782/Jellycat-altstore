@@ -1,17 +1,24 @@
 {
   "name": "JellyCat Source",
-  "identifier": "com.mar.jellycat.source",
   "apps": [
     {
       "name": "JellyCat",
-      "bundleIdentifier": "com.mar.jellycat",
+      "bundleIdentifier": "mar.JellyCat",
       "developerName": "Mar",
-      "version": "1.0.0",
-      "versionDate": "2026-05-12",
-      "downloadURL": "https://github.com/Mariano14782/Jellycat-altstore/releases/download/v1.0/Jellycat.ipa",
-      "localizedDescription": "Jellyfin music player",
-      "iconURL": "https://raw.githubusercontent.com/Mariano14782/Jellycat-altstore/main/1024.png"
-      "size": 2384938
+      "localizedDescription": "Jellyfin music player for iOS",
+      "iconURL": "https://raw.githubusercontent.com/Mariano14782/Jellycat-altstore/main/1024.png",
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-05-12",
+          "downloadURL": "https://github.com/Mariano14782/Jellycat-altstore/releases/download/v1.0/Jellycat.ipa",
+          "size": 2384938
+        }
+      ]
     }
   ]
 }
